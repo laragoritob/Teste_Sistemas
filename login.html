@@ -9,7 +9,8 @@
 <body>
     <div class="container">
         <h2> Login </h2>
-        <form id="loginForm">
+
+        <form action="login.php" method="POST">
             <label for="usuario"> Usuário: </label>
             <input type="text" id="usuario" name="usuario" required />
 
@@ -22,7 +23,7 @@
         </form>
     </div>
 
-    <script>
+    <!-- <script>
         document.getElementById("loginForm").addEventListener("submit", function(event) {
             event.preventDefault();
 
@@ -35,6 +36,6 @@
                 document.getElementById("error-message").style.display = "block";
             }
         });
-    </script>
+    </script> -->
 </body>
 </html>
